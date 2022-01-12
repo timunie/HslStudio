@@ -12,7 +12,9 @@
         <Setter Property="Height" Value="20" />
         <Setter Property="Template">
             <ControlTemplate TargetType="controls:Cylinder">
-                <Ellipse Width="{TemplateBinding Width}" Height="{TemplateBinding Height}"
+                <Ellipse Width="{TemplateBinding Width}" 
+                         ZIndex="5"
+                         Height="{TemplateBinding Height}"
                          Fill="{TemplateBinding Foreground}" StrokeThickness="1" Stroke="{TemplateBinding BorderBrush}" />
             </ControlTemplate>
         </Setter>
