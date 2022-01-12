@@ -8,5 +8,6 @@
 
     <Application.Styles>
         <FluentTheme Mode="Dark"/>
+        <StyleInclude Source="/styles/Cylinder.axaml"></StyleInclude>
     </Application.Styles>
 </Application>
